@@ -1,4 +1,7 @@
 # Uri.Python
-Submisons accepted in Uri online jugde
+(en) Submisons accepted in Uri online jugde
 
-## *Review code after submit
+(pt) Subimissões aceitas no Uri online jugde
+
+## *(en) Review code after submit
+## *(pt) Revise os codigos antes de submeter
