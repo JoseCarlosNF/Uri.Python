@@ -17,20 +17,20 @@
 obs: todas as apresentações de nota devem ter uma casa decimal
 '''
 
-# Entrada
+# Entrada 📩
 nota1, nota2, nota3, nota4 = map(float, input().split())
 
-# Peso das notas
+# Peso das notas 📌
 nota1 *= 2
 nota2 *= 3
 nota3 *= 4
 nota4 *= 1
 
-# Media Comum
+# Media Comum 💹
 media = (nota1 + nota2 + nota3 + nota4) / 10
 print('Media: %.1f' % media)
 
-# Avaliação de Media
+# Avaliação de Media 👁‍🗨
 if media >= 7.0:
     print('Aluno aprovado.')
 elif media < 5.0:
@@ -38,7 +38,7 @@ elif media < 5.0:
 elif 5.0 <= media <= 6.9:
     print('Aluno em exame.')
 
-    # Exame
+    # Exame 👀
     notaExame = float(input())
     print('Nota do exame: %.1f' % notaExame)
     mediaFinal = (notaExame + media) / 2
@@ -47,5 +47,5 @@ elif 5.0 <= media <= 6.9:
     elif mediaFinal <= 4.9:
         print('Aluno reprovado.')
 
-    # Apresentar Media final
+    # Apresentar Media final 🗣
     print('Media final: %.1f' % mediaFinal)
