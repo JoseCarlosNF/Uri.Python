@@ -1,4 +1,4 @@
-# coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 # 1173 - Preenchimento de Vetor I
 
 

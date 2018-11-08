@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # 1172 - Substituição em Vetor I
-# Função e Procedimento
 
 
+# Função
 def função(entrada):
     if entrada <= 0:
         saida = 1
