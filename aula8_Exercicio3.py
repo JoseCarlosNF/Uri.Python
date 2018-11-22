@@ -38,14 +38,14 @@ def paresCrescente(n, i=0):
         return 0
 
 
-''' Main '''
+# Main
 num = int(input('Num: '))
 
-imprime('Numeros decrescntes de 0 até %d' % num)
+imprime('Numeros decrescntes de 0 ate %d' % num)
 decrescente(num)
 
-imprime('Pares decrescentes de %d até 0' % num)
+imprime('Pares decrescentes de %d ate 0' % num)
 paresDecrescente(num)
 
-imprime('Pares crescentes de 0 até %d' % num)
+imprime('Pares crescentes de 0 ate %d' % num)
 paresCrescente(num)

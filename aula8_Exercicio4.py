@@ -17,5 +17,6 @@ def superFatorial(n):
         total *= fact(i)
     return total
 
+
 n = int(input('Num (superfatorial): '))
 print(superFatorial(n))
