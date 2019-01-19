@@ -41,7 +41,7 @@ def paresCrescente(n, i=0):
 # Main
 num = int(input('Num: '))
 
-imprime('Numeros decrescntes de 0 ate %d' % num)
+imprime('Numeros decrescentes de 0 ate %d' % num)
 decrescente(num)
 
 imprime('Pares decrescentes de %d ate 0' % num)
